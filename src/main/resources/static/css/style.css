@@ -1,0 +1,25 @@
+form:hover input:invalid, form:hover select:invalid, form:hover textarea:invalid {
+    /* background-color: pink; */
+    border: 2px solid pink;
+}
+
+.error {
+    float: right;
+    color: red;
+    font-size: x-small;
+}
+
+body {
+    background-image: url("/img/bg_graph.png");
+    /* Full height */
+    /*height: 100%;*/
+
+     /*Center and scale the image nicely*/ 
+/*    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+    background-repeat: repeat;
+    /*background-size: 100%;*/
+    /*background-attachment: fixed;*/
+}
