@@ -27,7 +27,8 @@
     <body>
         <div class="container">
 
-            <!-- NAVBAR -->
+            <%@include file="navbar.jsp" %>
+<!--             NAVBAR 
             <nav class="navbar navbar-expand-md navbar-light bg-light rounded mt-3 py-0">
                 <a href="/" class="navbar-brand d-sm-inline d-none"><img src="/img/logo.png" width="60px" height="60px" alt="logo">&nbsp;Legacy Private School</a>
                 <a href="/" class="navbar-brand d-sm-none"><img src="/img/logo.png" width="60px" height="60px" alt="logo"></a>
@@ -39,7 +40,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/">Home</a>
                         </li>
-                        <!-- At the next line I accidentaly added a dash between item and dropdown and the drop down list appeared to the left -->
+                         At the next line I accidentaly added a dash between item and dropdown and the drop down list appeared to the left 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Trainer
@@ -53,9 +54,9 @@
                             <a class="nav-link" href="/about">About</a>
                         </li>
                     </ul>
-<!--                    <form class="form-inline my-2 my-lg-0">
+                    <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search Trainer" aria-label="Search">
-                    </form>-->
+                    </form>
                     <form class="navbar-form my-2" method="post" action="/searchResults">
                         <div class="input-group">
                             <input type="text" name="input" placeholder="Search Trainer" class="form-control" />
@@ -67,7 +68,7 @@
                         </div>
                     </form>
                 </div>
-            </nav>
+            </nav>-->
             
             <br>
             <h3>Legacy Private School Mission</h3>

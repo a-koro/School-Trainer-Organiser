@@ -30,7 +30,8 @@
     <body>
         <div class="container">
 
-            <!-- NAVBAR -->
+            <%@include file="navbar.jsp" %>
+<!--             NAVBAR 
             <nav class="navbar navbar-expand-md navbar-light bg-light rounded mt-3 py-0">
                 <a href="/" class="navbar-brand d-sm-inline d-none"><img src="/img/logo.png" width="60px" height="60px" alt="logo">&nbsp;Legacy Private School</a>
                 <a href="/" class="navbar-brand d-sm-none"><img src="/img/logo.png" width="60px" height="60px" alt="logo"></a>
@@ -42,7 +43,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/">Home</a>
                         </li>
-                        <!-- At the next line I accidentaly added a dash between item and dropdown and the drop down list appeared to the left -->
+                         At the next line I accidentaly added a dash between item and dropdown and the drop down list appeared to the left 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Trainer
@@ -66,7 +67,7 @@
                             </div>
                         </div>
                     </form>
-                </div>
+                </div>-->
             </nav>
 
             <div class="row justify-content-end">

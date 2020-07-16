@@ -112,6 +112,8 @@ public class TrainerController {
 
     @PostMapping("/searchResults")
     public String searchResults(ModelMap mm, @RequestParam("input") String input) {
+        // On the next line replaceAll method removes all whitespace from the input string
+        input = input.replaceAll("\\s+", "");
         mm.addAttribute("searchResultTrainers", trainerServiceInterface.searchTrainers(input));
         return "searchResults";
     }
