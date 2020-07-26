@@ -16,6 +16,7 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -45,13 +46,16 @@ public class Trainer implements Serializable {
     @Column(name = "first_name")
     @Pattern(regexp="[A-Za-z ]{2,}", message="Invalid name input")
     @Size(min=2, max=40, message="First name must be between 2 and 40 characters")
+    @NotBlank(message = "First name may not be blank")
     private String firstName;
     @Column(name = "last_name")
     @Pattern(regexp="[A-Za-z ]{2,}", message="Invalid name input")
     @Size(min=2, max=40, message="Last name must be between 2 and 40 characters")
+    @NotBlank(message = "Last name may not be blank")
     private String lastName;
     @Column(name = "subject")
     @Size(min=2, max=40, message="Subject must be between 2 and 40 characters")
+    @NotBlank(message = "Subject may not be blank")
     private String subject;
     @Column(name = "email")
     @Email(message="Invalid input")
