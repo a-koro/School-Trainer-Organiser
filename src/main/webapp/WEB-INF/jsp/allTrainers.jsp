@@ -31,44 +31,6 @@
         <div class="container">
 
             <%@include file="navbar.jsp" %>
-<!--             NAVBAR 
-            <nav class="navbar navbar-expand-md navbar-light bg-light rounded mt-3 py-0">
-                <a href="/" class="navbar-brand d-sm-inline d-none"><img src="/img/logo.png" width="60px" height="60px" alt="logo">&nbsp;Legacy Private School</a>
-                <a href="/" class="navbar-brand d-sm-none"><img src="/img/logo.png" width="60px" height="60px" alt="logo"></a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarMenu">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
-                        </li>
-                         At the next line I accidentaly added a dash between item and dropdown and the drop down list appeared to the left 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Trainer
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/preInsertTrainer">Add Trainer</a>
-                                <a class="dropdown-item" href="/listOfTrainers">List Of Trainers</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
-                        </li>
-                    </ul>
-                    <form class="navbar-form my-2" method="post" action="/searchResults">
-                        <div class="input-group">
-                            <input type="text" name="input" placeholder="Search Trainer" class="form-control" />
-                            <div class="input-group-append">
-                                <button class="btn btn-secondary">
-                                    <i class="fas fa-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>-->
-            </nav>
 
             <div class="row justify-content-end">
                 <div class="col">
